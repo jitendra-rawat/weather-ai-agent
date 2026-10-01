@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & Dependencies
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Environment Variables & Secrets (crucial for API keys)
+.env
+.env.local
+*.env
+
+# IDE & Code Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# LangGraph & Local Databases (if using SQLite/checkpointers)
+*.sqlite
+*.sqlite3
+*.db
+.langgraph_api/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
